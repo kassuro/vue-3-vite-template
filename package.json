@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "pinia": "^2.0.0-alpha.17",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.8"
   },
   "devDependencies": {
     "@types/jest": "^26.0.23",
