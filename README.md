@@ -2,6 +2,25 @@
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
 
+## Added Packages
+
+This template comes with some batteries included:
+
+- eslint + prettier
+- pinia
+- vue-router
+- jest
+
+All packages are setup and have the needed config to work with the vite setup.
+
+## Recommended additions:
+
+Some good packages to add:
+
+- axios -> making API calls easy
+- lodash -> the well known all purpose util function library
+- @vueuse/core -> A really helpful library filled with composition API compatible functions
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
