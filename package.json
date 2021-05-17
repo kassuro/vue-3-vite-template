@@ -4,7 +4,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "yarn run eslint --config ./.eslintrc.js --format stylish --fix src/**/*.{ts,vue}",
+    "jest": "jest config=./jest.config.js",
+    "test:unit": "yarn jest test"
   },
   "dependencies": {
     "vue": "^3.0.5"
